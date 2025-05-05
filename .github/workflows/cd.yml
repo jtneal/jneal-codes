@@ -30,6 +30,7 @@ jobs:
           for lib in ./dist/libs/*; do
             if [ -d "$lib" ]; then
               cd "$lib"
+              npm version $GITHUB_REF_NAME
               npm publish --provenance --access public
             fi
           done
