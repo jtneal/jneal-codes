@@ -4,5 +4,9 @@
   "type": "commonjs",
   "main": "./index.cjs",
   "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtneal/jneal-codes.git"
+  },
   "dependencies": {}
 }
