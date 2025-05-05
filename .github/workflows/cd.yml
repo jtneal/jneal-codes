@@ -24,6 +24,14 @@ jobs:
 
       - run: npm ci
 
-      - run: npm publish --provenance --access public
+      - run: npx nx run-many -t build
+
+      - run: |
+          for lib in ./dist/libs/*; do
+            if [ -d "$lib" ]; then
+              cd "./dist/libs/$lib"
+              npm publish --provenance --access public
+            fi
+          done
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
