@@ -7,6 +7,10 @@ export const styles = `
     justify-content: center;
   }
 
+  .sudoku-title {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
   .sudoku-card {
     background-color: #000;
     border: 6px solid #000;
@@ -14,6 +18,7 @@ export const styles = `
     gap: 3px;
     grid-template-columns: repeat(9, 3rem);
     grid-template-rows: repeat(9, 3rem);
+    margin-bottom: 1rem;
     width: fit-content;
   }
 
