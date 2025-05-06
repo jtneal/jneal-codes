@@ -1,18 +1,14 @@
-import { getSudokuGame } from './sudoku';
+import { createSudokuGame } from './sudoku';
 
 describe('sudoku', () => {
-  it('should get sudoku game', () => {
-    const game = getSudokuGame();
+  it('should create sudoku game', () => {
+    const game = createSudokuGame();
 
     expect(game).toHaveLength(9);
-    expect(game[0]).toHaveLength(9);
-    expect(game[1]).toHaveLength(9);
-    expect(game[2]).toHaveLength(9);
-    expect(game[3]).toHaveLength(9);
-    expect(game[4]).toHaveLength(9);
-    expect(game[5]).toHaveLength(9);
-    expect(game[6]).toHaveLength(9);
-    expect(game[7]).toHaveLength(9);
-    expect(game[8]).toHaveLength(9);
+
+    game.forEach((row) => {
+      expect(row).toHaveLength(9);
+      expect(row.includes(0)).toBe(false);
+    });
   });
 });
