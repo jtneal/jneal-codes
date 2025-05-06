@@ -3,11 +3,13 @@ import { createSudokuGame } from './sudoku';
 describe('sudoku', () => {
   it('should create sudoku game', () => {
     const game = createSudokuGame();
+    const grid = game.solution;
 
-    expect(game).toHaveLength(9);
+    expect(grid).toHaveLength(9);
 
-    game.forEach((row) => {
+    grid.forEach((row) => {
       expect(row).toHaveLength(9);
+      console.log(row);
       expect(row.includes(0)).toBe(false);
     });
   });

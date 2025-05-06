@@ -1,16 +1,18 @@
 import { isValid } from './logic';
 import { shuffle } from './shuffle';
-import { SudokuGame } from './types';
+import { SudokuDifficulty, SudokuGame, SudokuGrid } from './types';
 
-export function createSudokuGame(): SudokuGame {
-  const game = Array.from({ length: 9 }, () => Array(9).fill(0));
+export function createSudokuGame(difficulty = SudokuDifficulty.EASY): SudokuGame {
+  const solution = Array.from({ length: 9 }, () => Array(9).fill(0));
 
-  findSolution(game, 0, 0);
+  findSolution(solution, 0, 0);
 
-  return game;
+  const state = createState(JSON.parse(JSON.stringify(solution)), difficulty);
+
+  return { solution, state };
 }
 
-function findSolution(game: SudokuGame, row: number, col: number): boolean {
+function findSolution(grid: SudokuGrid, row: number, col: number): boolean {
   if (row === 9) {
     return true;
   }
@@ -20,16 +22,33 @@ function findSolution(game: SudokuGame, row: number, col: number): boolean {
   const numbers = shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 
   for (const num of numbers) {
-    if (isValid(game, row, col, num)) {
-      game[row][col] = num;
+    if (isValid(grid, row, col, num)) {
+      grid[row][col] = num;
 
-      if (findSolution(game, nextRow, nextCol)) {
+      if (findSolution(grid, nextRow, nextCol)) {
         return true;
       }
 
-      game[row][col] = 0;
+      grid[row][col] = 0;
     }
   }
 
   return false;
+}
+
+function createState(solution: SudokuGrid, difficulty: SudokuDifficulty): SudokuGrid {
+  const cellsToHide = Math.floor(solution.flat().length * difficulty);
+  let hiddenCells = 0;
+
+  while (hiddenCells < cellsToHide) {
+    const rowIndex = Math.floor(Math.random() * solution.length);
+    const colIndex = Math.floor(Math.random() * solution[0].length);
+
+    if (solution[rowIndex][colIndex] !== 0) {
+      solution[rowIndex][colIndex] = 0;
+      hiddenCells++;
+    }
+  }
+
+  return solution;
 }

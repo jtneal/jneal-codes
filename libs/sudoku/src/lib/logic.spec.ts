@@ -1,11 +1,11 @@
 import { isInBlock, isInColumn, isInRow, isValid } from './logic';
-import { SudokuGame } from './types';
+import { SudokuGrid } from './types';
 
 describe('logic', () => {
-  let game: SudokuGame;
+  let grid: SudokuGrid;
 
   beforeEach(() => {
-    game = [
+    grid = [
       [3, 1, 5, 8, 2, 7, 9, 4, 6],
       [4, 6, 8, 9, 1, 5, 7, 3, 2],
       [7, 2, 9, 3, 4, 6, 5, 1, 8],
@@ -19,7 +19,7 @@ describe('logic', () => {
   });
 
   it('should validate all', () => {
-    const newGame = [ ...game ];
+    const newGame = [ ...grid ];
 
     newGame[0][0] = 0;
 
@@ -28,17 +28,17 @@ describe('logic', () => {
   });
 
   it('should validate row', () => {
-    expect(isInRow(game, 0, 0)).toBe(false);
-    expect(isInRow(game, 0, 1)).toBe(true);
+    expect(isInRow(grid, 0, 0)).toBe(false);
+    expect(isInRow(grid, 0, 1)).toBe(true);
   });
 
   it('should validate column', () => {
-    expect(isInColumn(game, 0, 0)).toBe(false);
-    expect(isInColumn(game, 0, 1)).toBe(true);
+    expect(isInColumn(grid, 0, 0)).toBe(false);
+    expect(isInColumn(grid, 0, 1)).toBe(true);
   });
 
   it('should validate block', () => {
-    expect(isInBlock(game, 0, 0, 0)).toBe(false);
-    expect(isInBlock(game, 0, 0, 1)).toBe(true);
+    expect(isInBlock(grid, 0, 0, 0)).toBe(false);
+    expect(isInBlock(grid, 0, 0, 1)).toBe(true);
   });
 });

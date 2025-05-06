@@ -1,7 +1,7 @@
-import { SudokuGame } from './types';
+import { SudokuGrid } from './types';
 
 export function isValid(
-  game: SudokuGame,
+  game: SudokuGrid,
   row: number,
   col: number,
   num: number
@@ -13,12 +13,12 @@ export function isValid(
   );
 }
 
-export function isInRow(game: SudokuGame, row: number, num: number): boolean {
+export function isInRow(game: SudokuGrid, row: number, num: number): boolean {
   return game[row].includes(num);
 }
 
 export function isInColumn(
-  game: SudokuGame,
+  game: SudokuGrid,
   col: number,
   num: number
 ): boolean {
@@ -32,7 +32,7 @@ export function isInColumn(
 }
 
 export function isInBlock(
-  game: SudokuGame,
+  game: SudokuGrid,
   startRow: number,
   startCol: number,
   num: number
