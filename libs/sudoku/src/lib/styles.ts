@@ -7,8 +7,21 @@ export const styles = `
     justify-content: center;
   }
 
+  .sudoku-header {
+    position: relative;
+    text-align: center;
+    width: 468px;
+  }
+
   .sudoku-title {
     font-family: 'Courier New', Courier, monospace;
+  }
+
+  .sudoku-score {
+    color: #f00;
+    position: absolute;
+    right: 0;
+    top: 9px;
   }
 
   .sudoku-card {
