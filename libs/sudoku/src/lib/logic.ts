@@ -8,27 +8,29 @@ export function play(
   col: number,
   num: number
 ): boolean {
-  // If the game has not started yet, start it now
+  // If the game has not started yet, start it now adding 1 point every second
   if (!interval) {
     interval = setInterval(() => (game.score += 1), 1_000);
   }
 
-  // If the user plays a number that is valid
   if (game.solution[row][col] === num) {
     game.state[row][col] = num;
 
-    // If the game is over, stop the timer
-    if (game.solution === game.state) {
+    if (isGameOver(game)) {
       clearInterval(interval);
     }
 
     return true;
   }
 
-  // The user played an invalid number so we increase the score by 10
-  game.score += 10;
+  // The user played an invalid number so we increase the score by 30s
+  game.score += 30;
 
   return false;
+}
+
+export function isGameOver(game: SudokuGame): boolean {
+  return game.state.flat().every((cell) => cell > 0);
 }
 
 export function isValid(

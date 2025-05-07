@@ -1,5 +1,4 @@
 export interface SudokuGame {
-  candidates: SudokuGrid[];
   difficulty: SudokuDifficulty;
   score: number;
   solution: SudokuGrid;

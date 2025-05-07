@@ -3,7 +3,6 @@ import { shuffle } from './shuffle';
 import { SudokuDifficulty, SudokuGame, SudokuGrid } from './types';
 
 export function createSudokuGame(difficulty = SudokuDifficulty.EASY): SudokuGame {
-  const candidates = Array.from({ length: 9 }, () => Array(9).fill([]));
   const score = 0;
   const solution = Array.from({ length: 9 }, () => Array(9).fill(0));
 
@@ -11,7 +10,7 @@ export function createSudokuGame(difficulty = SudokuDifficulty.EASY): SudokuGame
 
   const state = createState(JSON.parse(JSON.stringify(solution)), difficulty);
 
-  return { candidates, difficulty, score, solution, state };
+  return { difficulty, score, solution, state };
 }
 
 function findSolution(grid: SudokuGrid, row: number, col: number): boolean {

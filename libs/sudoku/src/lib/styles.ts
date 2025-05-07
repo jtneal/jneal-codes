@@ -8,20 +8,20 @@ export const styles = `
   }
 
   .sudoku-header {
-    position: relative;
-    text-align: center;
-    width: 468px;
-  }
-
-  .sudoku-title {
+    align-items: center;
+    display: flex;
     font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+    width: 468px;
+
+    h2 {
+      width: 100px;
+    }
   }
 
   .sudoku-score {
     color: #f00;
-    position: absolute;
-    right: 0;
-    top: 9px;
+    text-align: right;
   }
 
   .sudoku-card {
@@ -51,5 +51,12 @@ export const styles = `
     &:nth-child(n+46):nth-child(-n+54) {
       margin-bottom: 3px;
     }
+  }
+
+  .sudoku-input {
+    font-size: 1.4rem;
+    height: 2.5rem;
+    text-align: center;
+    width: 2.5rem;
   }
 `;
