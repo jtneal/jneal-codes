@@ -1,4 +1,4 @@
-import { SudokuGame, SudokuGrid } from './types';
+import { SudokuGame, SudokuGrid, SudokuStatus } from './types';
 
 let interval: NodeJS.Timer | null = null;
 
@@ -13,11 +13,21 @@ export function play(
     interval = setInterval(() => (game.score += 1), 1_000);
   }
 
+  const reset = () => {
+    if (game.status !== SudokuStatus.OVER) {
+      game.status = SudokuStatus.EMPTY;
+    }
+  };
+
   if (game.solution[row][col] === num) {
     game.state[row][col] = num;
 
     if (isGameOver(game)) {
       clearInterval(interval);
+      game.status = SudokuStatus.OVER;
+    } else {
+      game.status = SudokuStatus.CORRECT;
+      setTimeout(reset, 500);
     }
 
     return true;
@@ -25,6 +35,8 @@ export function play(
 
   // The user played an invalid number so we increase the score by 30s
   game.score += 30;
+  game.status = SudokuStatus.INCORRECT;
+  setTimeout(reset, 500);
 
   return false;
 }

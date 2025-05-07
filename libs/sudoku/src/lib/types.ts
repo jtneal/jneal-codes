@@ -3,6 +3,7 @@ export interface SudokuGame {
   score: number;
   solution: SudokuGrid;
   state: SudokuGrid;
+  status: SudokuStatus;
 }
 
 export enum SudokuDifficulty {
@@ -12,3 +13,10 @@ export enum SudokuDifficulty {
 }
 
 export type SudokuGrid = number[][];
+
+export enum SudokuStatus {
+  CORRECT = '✅',
+  INCORRECT = '❌',
+  OVER = '🎉',
+  EMPTY = '',
+}

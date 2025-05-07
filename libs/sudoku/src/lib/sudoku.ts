@@ -1,16 +1,17 @@
 import { isValid } from './logic';
 import { shuffle } from './shuffle';
-import { SudokuDifficulty, SudokuGame, SudokuGrid } from './types';
+import { SudokuDifficulty, SudokuGame, SudokuGrid, SudokuStatus } from './types';
 
 export function createSudokuGame(difficulty = SudokuDifficulty.EASY): SudokuGame {
   const score = 0;
   const solution = Array.from({ length: 9 }, () => Array(9).fill(0));
+  const status = SudokuStatus.EMPTY;
 
   findSolution(solution, 0, 0);
 
   const state = createState(JSON.parse(JSON.stringify(solution)), difficulty);
 
-  return { difficulty, score, solution, state };
+  return { difficulty, score, solution, state, status };
 }
 
 function findSolution(grid: SudokuGrid, row: number, col: number): boolean {
