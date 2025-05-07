@@ -19,7 +19,7 @@ describe('logic', () => {
   });
 
   it('should validate all', () => {
-    const newGame = [ ...grid ];
+    const newGame = [...grid];
 
     newGame[0][0] = 0;
 

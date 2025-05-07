@@ -1,4 +1,35 @@
-import { SudokuGrid } from './types';
+import { SudokuGame, SudokuGrid } from './types';
+
+let interval: NodeJS.Timer | null = null;
+
+export function play(
+  game: SudokuGame,
+  row: number,
+  col: number,
+  num: number
+): boolean {
+  // If the game has not started yet, start it now
+  if (!interval) {
+    interval = setInterval(() => (game.score += 1), 1_000);
+  }
+
+  // If the user plays a number that is valid
+  if (game.solution[row][col] === num) {
+    game.state[row][col] = num;
+
+    // If the game is over, stop the timer
+    if (game.solution === game.state) {
+      clearInterval(interval);
+    }
+
+    return true;
+  }
+
+  // The user played an invalid number so we increase the score by 10
+  game.score += 10;
+
+  return false;
+}
 
 export function isValid(
   game: SudokuGrid,
