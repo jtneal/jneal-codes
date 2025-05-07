@@ -11,9 +11,11 @@ npm install @jneal-codes/sudoku
 ## Usage
 
 ```typescript
-import { getSudokuGame } from '@jneal-codes/sudoku';
+import { createSudokuGame, SudokuDifficulty } from '@jneal-codes/sudoku';
 
-const game = getSudokuGame();
+const game = createSudokuGame(SudokuDifficulty.EASY);
+
+console.log(game.solution);
 
 // [
 //   [3, 1, 5, 8, 2, 7, 9, 4, 6],

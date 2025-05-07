@@ -59,4 +59,15 @@ export const styles = `
     text-align: center;
     width: 2.5rem;
   }
+
+  .sudoku-footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 468px;
+
+    select {
+      padding: 0.333rem;
+    }
+  }
 `;

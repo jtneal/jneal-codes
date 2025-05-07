@@ -1,6 +1,14 @@
 import { isValid } from './logic';
 import { shuffle } from './shuffle';
-import { SudokuDifficulty, SudokuGame, SudokuGrid, SudokuStatus } from './types';
+import { SudokuDifficulty, SudokuDifficultyOption, SudokuGame, SudokuGrid, SudokuStatus } from './types';
+
+export function getDifficulties(): SudokuDifficultyOption[] {
+  return [
+    { value: SudokuDifficulty.EASY, label: 'Easy' },
+    { value: SudokuDifficulty.MEDIUM, label: 'Medium' },
+    { value: SudokuDifficulty.HARD, label: 'Hard' },
+  ];
+}
 
 export function createSudokuGame(difficulty = SudokuDifficulty.EASY): SudokuGame {
   const score = 0;
