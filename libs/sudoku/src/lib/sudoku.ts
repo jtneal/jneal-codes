@@ -10,14 +10,19 @@ export function getDifficulties(): SudokuDifficultyOption[] {
   ];
 }
 
-export function createSudokuGame(difficulty = SudokuDifficulty.EASY): SudokuGame {
-  const score = 0;
+export function getSudokuSolution(): SudokuGrid {
   const solution = Array.from({ length: 9 }, () => Array(9).fill(0));
-  const status = SudokuStatus.EMPTY;
 
   findSolution(solution, 0, 0);
 
+  return solution;
+}
+
+export function createSudokuGame(difficulty = SudokuDifficulty.EASY): SudokuGame {
+  const score = 0;
+  const solution = getSudokuSolution();
   const state = createState(JSON.parse(JSON.stringify(solution)), difficulty);
+  const status = SudokuStatus.EMPTY;
 
   return { difficulty, score, solution, state, status };
 }
