@@ -32,6 +32,7 @@ jobs:
               cd "$lib"
               npm version $GITHUB_REF_NAME
               npm publish --provenance --access public
+              cd -
             fi
           done
         env:
