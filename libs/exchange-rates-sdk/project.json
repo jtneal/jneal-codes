@@ -1,0 +1,41 @@
+{
+  "name": "exchange-rates-sdk",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/exchange-rates-sdk/src",
+  "projectType": "library",
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist/{projectRoot}",
+        "currentVersionResolver": "git-tag",
+        "fallbackCurrentVersionResolver": "disk"
+      }
+    }
+  },
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/exchange-rates-sdk",
+        "tsConfig": "libs/exchange-rates-sdk/tsconfig.lib.json",
+        "packageJson": "libs/exchange-rates-sdk/package.json",
+        "main": "libs/exchange-rates-sdk/src/index.ts",
+        "assets": ["libs/exchange-rates-sdk/*.md"]
+      }
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/exchange-rates-sdk/jest.config.ts"
+      }
+    }
+  }
+}

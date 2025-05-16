@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@jneal-codes/exchange-rates-sdk": [
+        "libs/exchange-rates-sdk/src/index.ts"
+      ],
       "@jneal-codes/sudoku": ["libs/sudoku/src/index.ts"]
     }
   },

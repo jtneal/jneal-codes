@@ -1,0 +1,1026 @@
+{
+  "data": [
+    {
+      "country": "Afghanistan",
+      "currency": "Afghani",
+      "exchange_rate": "70.86"
+    },
+    {
+      "country": "Albania",
+      "currency": "Lek",
+      "exchange_rate": "90.96"
+    },
+    {
+      "country": "Algeria",
+      "currency": "Dinar",
+      "exchange_rate": "133.497"
+    },
+    {
+      "country": "Angola",
+      "currency": "Kwanza",
+      "exchange_rate": "912.0"
+    },
+    {
+      "country": "Antigua & Barbuda",
+      "currency": "East Caribbean Dollar",
+      "exchange_rate": "2.7"
+    },
+    {
+      "country": "Argentina",
+      "currency": "Peso",
+      "exchange_rate": "1093.0"
+    },
+    {
+      "country": "Argentina",
+      "currency": "Peso",
+      "exchange_rate": "1230.0"
+    },
+    {
+      "country": "Armenia",
+      "currency": "Dram",
+      "exchange_rate": "390.0"
+    },
+    {
+      "country": "Australia",
+      "currency": "Dollar",
+      "exchange_rate": "1.6"
+    },
+    {
+      "country": "Austria",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Azerbaijan",
+      "currency": "Manat",
+      "exchange_rate": "1.7"
+    },
+    {
+      "country": "Bahamas",
+      "currency": "Dollar",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Bahrain",
+      "currency": "Dinar",
+      "exchange_rate": "0.377"
+    },
+    {
+      "country": "Bangladesh",
+      "currency": "Taka",
+      "exchange_rate": "121.0"
+    },
+    {
+      "country": "Barbados",
+      "currency": "Dollar",
+      "exchange_rate": "2.02"
+    },
+    {
+      "country": "Belarus",
+      "currency": "New Ruble",
+      "exchange_rate": "3.118"
+    },
+    {
+      "country": "Belgium",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Belize",
+      "currency": "Dollar",
+      "exchange_rate": "2.0"
+    },
+    {
+      "country": "Benin",
+      "currency": "Cfa Franc",
+      "exchange_rate": "604.5"
+    },
+    {
+      "country": "Bermuda",
+      "currency": "Dollar",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Bolivia",
+      "currency": "Boliviano",
+      "exchange_rate": "6.86"
+    },
+    {
+      "country": "Bosnia",
+      "currency": "Marka",
+      "exchange_rate": "1.807"
+    },
+    {
+      "country": "Botswana",
+      "currency": "Pula",
+      "exchange_rate": "13.643"
+    },
+    {
+      "country": "Brazil",
+      "currency": "Real",
+      "exchange_rate": "5.758"
+    },
+    {
+      "country": "Brunei",
+      "currency": "Dollar",
+      "exchange_rate": "1.342"
+    },
+    {
+      "country": "Bulgaria",
+      "currency": "Lev New",
+      "exchange_rate": "1.807"
+    },
+    {
+      "country": "Burkina Faso",
+      "currency": "Cfa Franc",
+      "exchange_rate": "604.5"
+    },
+    {
+      "country": "Burundi",
+      "currency": "Franc",
+      "exchange_rate": "2900.0"
+    },
+    {
+      "country": "Cambodia",
+      "currency": "Riel",
+      "exchange_rate": "3990.5"
+    },
+    {
+      "country": "Cameroon",
+      "currency": "Cfa Franc",
+      "exchange_rate": "605.6"
+    },
+    {
+      "country": "Canada",
+      "currency": "Dollar",
+      "exchange_rate": "1.435"
+    },
+    {
+      "country": "Cape Verde",
+      "currency": "Escudo",
+      "exchange_rate": "101.88"
+    },
+    {
+      "country": "Cayman Islands",
+      "currency": "Dollar",
+      "exchange_rate": "0.82"
+    },
+    {
+      "country": "Central African Republic",
+      "currency": "Cfa Franc",
+      "exchange_rate": "605.6"
+    },
+    {
+      "country": "Chad",
+      "currency": "Cfa Franc",
+      "exchange_rate": "605.6"
+    },
+    {
+      "country": "Chile",
+      "currency": "Peso",
+      "exchange_rate": "953.76"
+    },
+    {
+      "country": "China",
+      "currency": "Renminbi",
+      "exchange_rate": "7.253"
+    },
+    {
+      "country": "Colombia",
+      "currency": "Peso",
+      "exchange_rate": "4201.42"
+    },
+    {
+      "country": "Comoros",
+      "currency": "Franc",
+      "exchange_rate": "456.07"
+    },
+    {
+      "country": "Congo",
+      "currency": "Cfa Franc",
+      "exchange_rate": "605.6"
+    },
+    {
+      "country": "Costa Rica",
+      "currency": "Colon",
+      "exchange_rate": "497.33"
+    },
+    {
+      "country": "Cote D'Ivoire",
+      "currency": "Cfa Franc",
+      "exchange_rate": "604.5"
+    },
+    {
+      "country": "Croatia",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Croatia",
+      "currency": "Kuna",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Cross Border",
+      "currency": "Euro",
+      "exchange_rate": "0.92"
+    },
+    {
+      "country": "Cuba",
+      "currency": "Chavito",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Cuba",
+      "currency": "Peso",
+      "exchange_rate": "24.0"
+    },
+    {
+      "country": "Cyprus",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Czech Republic",
+      "currency": "Koruna",
+      "exchange_rate": "22.371"
+    },
+    {
+      "country": "Democratic Republic Of Congo",
+      "currency": "Congolese Franc",
+      "exchange_rate": "2863.0"
+    },
+    {
+      "country": "Denmark",
+      "currency": "Krone",
+      "exchange_rate": "6.894"
+    },
+    {
+      "country": "Djibouti",
+      "currency": "Franc",
+      "exchange_rate": "177.0"
+    },
+    {
+      "country": "Dominican Republic",
+      "currency": "Peso",
+      "exchange_rate": "63.02"
+    },
+    {
+      "country": "Ecuador",
+      "currency": "Dolares",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Egypt",
+      "currency": "Pound",
+      "exchange_rate": "50.52"
+    },
+    {
+      "country": "El Salvador",
+      "currency": "Dollar",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Equatorial Guinea",
+      "currency": "Cfa Franc",
+      "exchange_rate": "605.6"
+    },
+    {
+      "country": "Eritrea",
+      "currency": "Nakfa",
+      "exchange_rate": "15.0"
+    },
+    {
+      "country": "Eritrea",
+      "currency": "Nakfa Salary Payment",
+      "exchange_rate": "15.0"
+    },
+    {
+      "country": "Estonia",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Eswatini",
+      "currency": "Lilangeni",
+      "exchange_rate": "18.366"
+    },
+    {
+      "country": "Ethiopia",
+      "currency": "Birr",
+      "exchange_rate": "128.88"
+    },
+    {
+      "country": "Euro Zone",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Fiji",
+      "currency": "Dollar",
+      "exchange_rate": "2.282"
+    },
+    {
+      "country": "Finland",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "France",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Gabon",
+      "currency": "Cfa Franc",
+      "exchange_rate": "605.6"
+    },
+    {
+      "country": "Gambia",
+      "currency": "Dalasi",
+      "exchange_rate": "71.0"
+    },
+    {
+      "country": "Georgia",
+      "currency": "Lari",
+      "exchange_rate": "2.732"
+    },
+    {
+      "country": "Germany",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Ghana",
+      "currency": "Cedi",
+      "exchange_rate": "15.45"
+    },
+    {
+      "country": "Ghana",
+      "currency": "Cedi",
+      "exchange_rate": "12.4"
+    },
+    {
+      "country": "Greece",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Grenada",
+      "currency": "East Caribbean Dollar",
+      "exchange_rate": "2.7"
+    },
+    {
+      "country": "Guatemala",
+      "currency": "Quetzal",
+      "exchange_rate": "7.705"
+    },
+    {
+      "country": "Guinea",
+      "currency": "Franc",
+      "exchange_rate": "8606.0"
+    },
+    {
+      "country": "Guinea Bissau",
+      "currency": "Cfa Franc",
+      "exchange_rate": "604.5"
+    },
+    {
+      "country": "Guyana",
+      "currency": "Dollar",
+      "exchange_rate": "215.0"
+    },
+    {
+      "country": "Haiti",
+      "currency": "Gourde",
+      "exchange_rate": "130.373"
+    },
+    {
+      "country": "Honduras",
+      "currency": "Lempira",
+      "exchange_rate": "25.562"
+    },
+    {
+      "country": "Hong Kong",
+      "currency": "Dollar",
+      "exchange_rate": "7.779"
+    },
+    {
+      "country": "Hungary",
+      "currency": "Forint",
+      "exchange_rate": "371.67"
+    },
+    {
+      "country": "Iceland",
+      "currency": "Krona",
+      "exchange_rate": "131.71"
+    },
+    {
+      "country": "India",
+      "currency": "Rupee",
+      "exchange_rate": "85.417"
+    },
+    {
+      "country": "Indonesia",
+      "currency": "Rupiah",
+      "exchange_rate": "16525.94"
+    },
+    {
+      "country": "Iran",
+      "currency": "Rial",
+      "exchange_rate": "42000.0"
+    },
+    {
+      "country": "Iraq",
+      "currency": "Dinar",
+      "exchange_rate": "1309.0"
+    },
+    {
+      "country": "Ireland",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Israel",
+      "currency": "Shekel",
+      "exchange_rate": "3.722"
+    },
+    {
+      "country": "Italy",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Jamaica",
+      "currency": "Dollar",
+      "exchange_rate": "159.0"
+    },
+    {
+      "country": "Japan",
+      "currency": "Yen",
+      "exchange_rate": "149.36"
+    },
+    {
+      "country": "Jordan",
+      "currency": "Dinar",
+      "exchange_rate": "0.708"
+    },
+    {
+      "country": "Kazakhstan",
+      "currency": "Tenge",
+      "exchange_rate": "503.25"
+    },
+    {
+      "country": "Kenya",
+      "currency": "Shilling",
+      "exchange_rate": "129.2"
+    },
+    {
+      "country": "Korea",
+      "currency": "Won",
+      "exchange_rate": "1473.69"
+    },
+    {
+      "country": "Kosovo",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Kuwait",
+      "currency": "Dinar",
+      "exchange_rate": "0.308"
+    },
+    {
+      "country": "Kyrgyzstan",
+      "currency": "Som",
+      "exchange_rate": "86.5"
+    },
+    {
+      "country": "Laos",
+      "currency": "Kip",
+      "exchange_rate": "21549.0"
+    },
+    {
+      "country": "Latvia",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Lebanon",
+      "currency": "Pound",
+      "exchange_rate": "89500.0"
+    },
+    {
+      "country": "Lesotho",
+      "currency": "Maloti",
+      "exchange_rate": "18.366"
+    },
+    {
+      "country": "Liberia",
+      "currency": "Dollar",
+      "exchange_rate": "198.0"
+    },
+    {
+      "country": "Libya",
+      "currency": "Dinar",
+      "exchange_rate": "4.825"
+    },
+    {
+      "country": "Libya",
+      "currency": "Dinar",
+      "exchange_rate": "5.463"
+    },
+    {
+      "country": "Lithuania",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Luxembourg",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Madagascar",
+      "currency": "Ariary",
+      "exchange_rate": "4710.0"
+    },
+    {
+      "country": "Malawi",
+      "currency": "Kwacha",
+      "exchange_rate": "1751.0"
+    },
+    {
+      "country": "Malaysia",
+      "currency": "Ringgit",
+      "exchange_rate": "4.435"
+    },
+    {
+      "country": "Maldives",
+      "currency": "Rufiyaa",
+      "exchange_rate": "15.42"
+    },
+    {
+      "country": "Mali",
+      "currency": "Cfa Franc",
+      "exchange_rate": "604.5"
+    },
+    {
+      "country": "Malta",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Marshall Islands",
+      "currency": "U.S. Dollar",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Mauritania",
+      "currency": "Ouguiya",
+      "exchange_rate": "39.79"
+    },
+    {
+      "country": "Mauritius",
+      "currency": "Rupee",
+      "exchange_rate": "45.48"
+    },
+    {
+      "country": "Mexico",
+      "currency": "Peso",
+      "exchange_rate": "20.386"
+    },
+    {
+      "country": "Micronesia",
+      "currency": "U.S. Dollar",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Moldova",
+      "currency": "Leu",
+      "exchange_rate": "17.8"
+    },
+    {
+      "country": "Mongolia",
+      "currency": "Tugrik",
+      "exchange_rate": "3488.0"
+    },
+    {
+      "country": "Montenegro",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Morocco",
+      "currency": "Dirham",
+      "exchange_rate": "9.631"
+    },
+    {
+      "country": "Mozambique",
+      "currency": "Metical",
+      "exchange_rate": "63.25"
+    },
+    {
+      "country": "Myanmar",
+      "currency": "Kyat",
+      "exchange_rate": "3607.0"
+    },
+    {
+      "country": "Namibia",
+      "currency": "Dollar",
+      "exchange_rate": "18.366"
+    },
+    {
+      "country": "Nepal",
+      "currency": "Rupee",
+      "exchange_rate": "136.75"
+    },
+    {
+      "country": "Netherlands",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Netherlands Antilles",
+      "currency": "Guilder",
+      "exchange_rate": "1.78"
+    },
+    {
+      "country": "New Zealand",
+      "currency": "Dollar",
+      "exchange_rate": "1.758"
+    },
+    {
+      "country": "Nicaragua",
+      "currency": "Cordoba",
+      "exchange_rate": "36.6"
+    },
+    {
+      "country": "Niger",
+      "currency": "Cfa Franc",
+      "exchange_rate": "604.5"
+    },
+    {
+      "country": "Nigeria",
+      "currency": "Naira",
+      "exchange_rate": "1530.0"
+    },
+    {
+      "country": "Norway",
+      "currency": "Krone",
+      "exchange_rate": "10.538"
+    },
+    {
+      "country": "Oman",
+      "currency": "Rial",
+      "exchange_rate": "0.385"
+    },
+    {
+      "country": "Pakistan",
+      "currency": "Rupee",
+      "exchange_rate": "280.0"
+    },
+    {
+      "country": "Palau",
+      "currency": "Dollar",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Panama",
+      "currency": "Balboa",
+      "exchange_rate": "283.37"
+    },
+    {
+      "country": "Panama",
+      "currency": "Dolares",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Papua New Guinea",
+      "currency": "Kina",
+      "exchange_rate": "3.922"
+    },
+    {
+      "country": "Paraguay",
+      "currency": "Guarani",
+      "exchange_rate": "7961.25"
+    },
+    {
+      "country": "Peru",
+      "currency": "Sol",
+      "exchange_rate": "3.657"
+    },
+    {
+      "country": "Philippines",
+      "currency": "Peso",
+      "exchange_rate": "57.239"
+    },
+    {
+      "country": "Poland",
+      "currency": "Zloty",
+      "exchange_rate": "3.867"
+    },
+    {
+      "country": "Portugal",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Qatar",
+      "currency": "Riyal",
+      "exchange_rate": "3.645"
+    },
+    {
+      "country": "Republic Of North Macedonia",
+      "currency": "Denar",
+      "exchange_rate": "56.54"
+    },
+    {
+      "country": "Romania",
+      "currency": "New Leu",
+      "exchange_rate": "4.597"
+    },
+    {
+      "country": "Russia",
+      "currency": "Ruble",
+      "exchange_rate": "84.85"
+    },
+    {
+      "country": "Rwanda",
+      "currency": "Franc",
+      "exchange_rate": "1385.0"
+    },
+    {
+      "country": "Sao Tome & Principe",
+      "currency": "New Dobras",
+      "exchange_rate": "22.711"
+    },
+    {
+      "country": "Saudi Arabia",
+      "currency": "Riyal",
+      "exchange_rate": "3.75"
+    },
+    {
+      "country": "Senegal",
+      "currency": "Cfa Franc",
+      "exchange_rate": "604.5"
+    },
+    {
+      "country": "Serbia",
+      "currency": "Dinar",
+      "exchange_rate": "108.11"
+    },
+    {
+      "country": "Seychelles",
+      "currency": "Rupee",
+      "exchange_rate": "14.312"
+    },
+    {
+      "country": "Sierra Leone",
+      "currency": "Leone",
+      "exchange_rate": "22.6"
+    },
+    {
+      "country": "Sierra Leone",
+      "currency": "Old Leone",
+      "exchange_rate": "21.4"
+    },
+    {
+      "country": "Singapore",
+      "currency": "Dollar",
+      "exchange_rate": "1.342"
+    },
+    {
+      "country": "Slovakia",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Slovenia",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Solomon Islands",
+      "currency": "Dollar",
+      "exchange_rate": "8.006"
+    },
+    {
+      "country": "Somali",
+      "currency": "Shilling",
+      "exchange_rate": "568.0"
+    },
+    {
+      "country": "South Africa",
+      "currency": "Rand",
+      "exchange_rate": "18.366"
+    },
+    {
+      "country": "South Sudan",
+      "currency": "Sudanese Pound",
+      "exchange_rate": "4500.0"
+    },
+    {
+      "country": "Spain",
+      "currency": "Euro",
+      "exchange_rate": "0.924"
+    },
+    {
+      "country": "Sri Lanka",
+      "currency": "Rupee",
+      "exchange_rate": "296.15"
+    },
+    {
+      "country": "St. Lucia",
+      "currency": "East Caribbean Dollar",
+      "exchange_rate": "2.7"
+    },
+    {
+      "country": "Sudan",
+      "currency": "Pound",
+      "exchange_rate": "2020.0"
+    },
+    {
+      "country": "Suriname",
+      "currency": "Dollar",
+      "exchange_rate": "36.339"
+    },
+    {
+      "country": "Sweden",
+      "currency": "Krona",
+      "exchange_rate": "10.02"
+    },
+    {
+      "country": "Switzerland",
+      "currency": "Franc",
+      "exchange_rate": "0.881"
+    },
+    {
+      "country": "Syria",
+      "currency": "Pound",
+      "exchange_rate": "12000.0"
+    },
+    {
+      "country": "Taiwan",
+      "currency": "Dollar",
+      "exchange_rate": "33.204"
+    },
+    {
+      "country": "Tajikistan",
+      "currency": "Somoni",
+      "exchange_rate": "10.82"
+    },
+    {
+      "country": "Tanzania",
+      "currency": "Shilling",
+      "exchange_rate": "2615.0"
+    },
+    {
+      "country": "Thailand",
+      "currency": "Baht",
+      "exchange_rate": "33.91"
+    },
+    {
+      "country": "Timor",
+      "currency": "Leste-Dili",
+      "exchange_rate": "1.0"
+    },
+    {
+      "country": "Togo",
+      "currency": "Cfa Franc",
+      "exchange_rate": "604.5"
+    },
+    {
+      "country": "Tonga",
+      "currency": "Pa'Anga",
+      "exchange_rate": "2.345"
+    },
+    {
+      "country": "Trinidad & Tobago",
+      "currency": "Dollar",
+      "exchange_rate": "6.744"
+    },
+    {
+      "country": "Tunisia",
+      "currency": "Dinar",
+      "exchange_rate": "3.109"
+    },
+    {
+      "country": "Turkey",
+      "currency": "New Lira",
+      "exchange_rate": "37.934"
+    },
+    {
+      "country": "Turkmenistan",
+      "currency": "New Manat",
+      "exchange_rate": "3.491"
+    },
+    {
+      "country": "Uganda",
+      "currency": "Shilling",
+      "exchange_rate": "3655.0"
+    },
+    {
+      "country": "Ukraine",
+      "currency": "Hryvnia",
+      "exchange_rate": "41.356"
+    },
+    {
+      "country": "United Arab Emirates",
+      "currency": "Dirham",
+      "exchange_rate": "3.673"
+    },
+    {
+      "country": "United Kingdom",
+      "currency": "Pound",
+      "exchange_rate": "0.772"
+    },
+    {
+      "country": "Uruguay",
+      "currency": "Peso",
+      "exchange_rate": "42.15"
+    },
+    {
+      "country": "Uzbekistan",
+      "currency": "Som",
+      "exchange_rate": "12932.16"
+    },
+    {
+      "country": "Vanuatu",
+      "currency": "Vatu",
+      "exchange_rate": "121.2"
+    },
+    {
+      "country": "Venezuela",
+      "currency": "Bolivar Soberano",
+      "exchange_rate": "69.393"
+    },
+    {
+      "country": "Venezuela",
+      "currency": "Bolivar Soberano",
+      "exchange_rate": "78.395"
+    },
+    {
+      "country": "Venezuela",
+      "currency": "Fuerte",
+      "exchange_rate": "248832.0"
+    },
+    {
+      "country": "Vietnam",
+      "currency": "Dong",
+      "exchange_rate": "25565.0"
+    },
+    {
+      "country": "Western Samoa",
+      "currency": "Tala",
+      "exchange_rate": "2.723"
+    },
+    {
+      "country": "Yemen",
+      "currency": "Rial",
+      "exchange_rate": "528.0"
+    },
+    {
+      "country": "Zambia",
+      "currency": "New Kwacha",
+      "exchange_rate": "28.05"
+    },
+    {
+      "country": "Zimbabwe",
+      "currency": "Gold",
+      "exchange_rate": "25.427"
+    },
+    {
+      "country": "Zimbabwe",
+      "currency": "Rtgs",
+      "exchange_rate": "13.635"
+    }
+  ],
+  "meta": {
+    "count": 199,
+    "labels": {
+      "country": "Country",
+      "currency": "Currency",
+      "exchange_rate": "Exchange Rate"
+    },
+    "dataTypes": {
+      "country": "STRING",
+      "currency": "STRING",
+      "exchange_rate": "NUMBER"
+    },
+    "dataFormats": {
+      "country": "String",
+      "currency": "String",
+      "exchange_rate": "10.2"
+    },
+    "total-count": 199,
+    "total-pages": 1
+  },
+  "links": {
+    "self": "&page%5Bnumber%5D=1&page%5Bsize%5D=200",
+    "first": "&page%5Bnumber%5D=1&page%5Bsize%5D=200",
+    "prev": null,
+    "next": null,
+    "last": "&page%5Bnumber%5D=1&page%5Bsize%5D=200"
+  }
+}
