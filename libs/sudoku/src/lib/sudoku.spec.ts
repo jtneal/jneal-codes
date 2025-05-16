@@ -1,8 +1,8 @@
-import { createSudokuGame } from './sudoku';
+import { createGame } from './sudoku';
 
 describe('sudoku', () => {
   it('should create sudoku game', () => {
-    const game = createSudokuGame();
+    const game = createGame();
     const grid = game.solution;
 
     expect(grid).toHaveLength(9);

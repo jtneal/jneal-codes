@@ -1,27 +1,29 @@
 export interface SudokuGame {
-  difficulty: SudokuDifficulty;
+  board: SudokuGrid;
+  difficulty: SudokuDifficultyEnum;
+  endTime?: Date;
   score: number;
   solution: SudokuGrid;
-  state: SudokuGrid;
-  status: SudokuStatus;
+  startTime?: Date;
+  status: SudokuStatusEnum;
 }
 
-export enum SudokuDifficulty {
+export type SudokuGrid = number[][];
+
+export enum SudokuDifficultyEnum {
   EASY = 0.5,
   MEDIUM = 0.625,
   HARD = 0.75,
 }
 
-export interface SudokuDifficultyOption {
-  label: string;
-  value: SudokuDifficulty;
-}
-
-export type SudokuGrid = number[][];
-
-export enum SudokuStatus {
+export enum SudokuStatusEnum {
   CORRECT = '✅',
   INCORRECT = '❌',
   OVER = '🎉',
   EMPTY = '',
+}
+
+export interface SudokuDifficultyOption {
+  label: string;
+  value: SudokuDifficultyEnum;
 }

@@ -1,30 +1,34 @@
-import { isValid } from './logic';
+import { isValid, start } from './logic';
 import { shuffle } from './shuffle';
-import { SudokuDifficulty, SudokuDifficultyOption, SudokuGame, SudokuGrid, SudokuStatus } from './types';
+import { SudokuDifficultyEnum, SudokuDifficultyOption, SudokuGame, SudokuGrid, SudokuStatusEnum } from './types';
 
 export function getDifficulties(): SudokuDifficultyOption[] {
   return [
-    { value: SudokuDifficulty.EASY, label: 'Easy' },
-    { value: SudokuDifficulty.MEDIUM, label: 'Medium' },
-    { value: SudokuDifficulty.HARD, label: 'Hard' },
+    { value: SudokuDifficultyEnum.EASY, label: 'Easy' },
+    { value: SudokuDifficultyEnum.MEDIUM, label: 'Medium' },
+    { value: SudokuDifficultyEnum.HARD, label: 'Hard' },
   ];
 }
 
-export function getSudokuSolution(): SudokuGrid {
+export function startGame(difficulty = SudokuDifficultyEnum.EASY): SudokuGame {
+  const game = createGame(difficulty);
+
+  start(game);
+
+  return game;
+}
+
+export function createGame(difficulty = SudokuDifficultyEnum.EASY): SudokuGame {
+  const score = 0;
   const solution = Array.from({ length: 9 }, () => Array(9).fill(0));
+  const startTime = new Date();
+  const status = SudokuStatusEnum.EMPTY;
 
   findSolution(solution, 0, 0);
 
-  return solution;
-}
+  const board = createBoard(JSON.parse(JSON.stringify(solution)), difficulty);
 
-export function createSudokuGame(difficulty = SudokuDifficulty.EASY): SudokuGame {
-  const score = 0;
-  const solution = getSudokuSolution();
-  const state = createState(JSON.parse(JSON.stringify(solution)), difficulty);
-  const status = SudokuStatus.EMPTY;
-
-  return { difficulty, score, solution, state, status };
+  return { board, difficulty, score, solution, startTime, status };
 }
 
 function findSolution(grid: SudokuGrid, row: number, col: number): boolean {
@@ -51,7 +55,7 @@ function findSolution(grid: SudokuGrid, row: number, col: number): boolean {
   return false;
 }
 
-function createState(solution: SudokuGrid, difficulty: SudokuDifficulty): SudokuGrid {
+function createBoard(solution: SudokuGrid, difficulty: SudokuDifficultyEnum): SudokuGrid {
   const cellsToHide = Math.floor(solution.flat().length * difficulty);
   let hiddenCells = 0;
 
