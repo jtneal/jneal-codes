@@ -65,7 +65,8 @@ export const styles = `
       justify-content: space-between;
       width: 468px;
 
-      select {
+      select,
+      button {
         padding: 0.333rem;
       }
     }
