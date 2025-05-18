@@ -27,3 +27,9 @@ export interface SudokuDifficultyOption {
   label: string;
   value: SudokuDifficultyEnum;
 }
+
+export interface SudokuPlay {
+  row: number;
+  cell: number;
+  value: number;
+}

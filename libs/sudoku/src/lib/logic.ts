@@ -1,4 +1,4 @@
-import { SudokuGame, SudokuGrid, SudokuStatusEnum } from './types';
+import { SudokuGame, SudokuGrid, SudokuPlay, SudokuStatusEnum } from './types';
 
 let interval: NodeJS.Timer | null = null;
 
@@ -18,15 +18,15 @@ export function end(game: SudokuGame): void {
   game.status = SudokuStatusEnum.OVER;
 }
 
-export function play(game: SudokuGame, row: number, col: number, num: number): boolean {
+export function play(game: SudokuGame, play: SudokuPlay): boolean {
   const reset = () => {
     if (game.status !== SudokuStatusEnum.OVER) {
       game.status = SudokuStatusEnum.EMPTY;
     }
   };
 
-  if (game.solution[row][col] === num) {
-    game.board[row][col] = num;
+  if (game.solution[play.row][play.cell] === play.value) {
+    game.board[play.row][play.cell] = play.value;
 
     if (isGameOver(game)) {
       end(game);
