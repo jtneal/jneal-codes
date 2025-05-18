@@ -29,7 +29,8 @@ export interface SudokuDifficultyOption {
 }
 
 export interface SudokuPlay {
-  row: number;
   cell: number;
+  input: HTMLInputElement;
+  row: number;
   value: number;
 }
